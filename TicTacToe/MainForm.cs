@@ -23,8 +23,8 @@ namespace TicTacToe
         private void Game_StateChange(Game.State state, Game.Symbol symbol)
         {
             Refresh();
-            if (state == Game.State.Drow) MessageBox.Show("Ничья");
-            else MessageBox.Show($"Выиграл {symbol}");
+            if (state == Game.State.Drow) MessageBox.Show("Draw!");
+            else MessageBox.Show($"{symbol} won!");
             StartGame();
         }
 
@@ -71,10 +71,10 @@ namespace TicTacToe
 
         private void крестикиToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if ((sender as ToolStripMenuItem).Text == "Крестики") game.Symb = Game.Symbol.X;
-            else if ((sender as ToolStripMenuItem).Text == "Нолики") game.Symb = Game.Symbol.O;
-            else if ((sender as ToolStripMenuItem).Text == "Играть с компьютером") game.Type = Game.TypeGame.Computer;
-            else if ((sender as ToolStripMenuItem).Text == "Играть с другом") game.Type = Game.TypeGame.Friend;
+            if ((sender as ToolStripMenuItem).Text == "X") game.Symb = Game.Symbol.X;
+            else if ((sender as ToolStripMenuItem).Text == "O") game.Symb = Game.Symbol.O;
+            else if ((sender as ToolStripMenuItem).Text == "Play with computer") game.Type = Game.TypeGame.Computer;
+            else if ((sender as ToolStripMenuItem).Text == "Play with friend") game.Type = Game.TypeGame.Friend;
             StartGame();
         }
     }
