@@ -74,7 +74,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(324, 278);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(324, 277);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // button8
@@ -85,7 +85,7 @@
             this.button8.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button8.Location = new System.Drawing.Point(219, 187);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(102, 88);
+            this.button8.Size = new System.Drawing.Size(102, 87);
             this.button8.TabIndex = 8;
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button0_Click);
@@ -98,7 +98,7 @@
             this.button7.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button7.Location = new System.Drawing.Point(111, 187);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(102, 88);
+            this.button7.Size = new System.Drawing.Size(102, 87);
             this.button7.TabIndex = 7;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button0_Click);
@@ -111,7 +111,7 @@
             this.button6.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button6.Location = new System.Drawing.Point(3, 187);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(102, 88);
+            this.button6.Size = new System.Drawing.Size(102, 87);
             this.button6.TabIndex = 6;
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button0_Click);
@@ -212,21 +212,21 @@
             this.игратьЗаToolStripMenuItem,
             this.новаяИграToolStripMenuItem});
             this.играToolStripMenuItem.Name = "играToolStripMenuItem";
-            this.играToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.играToolStripMenuItem.Text = "Игра";
+            this.играToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.играToolStripMenuItem.Text = "Game";
             // 
             // игратьСКомпьютеромToolStripMenuItem
             // 
             this.игратьСКомпьютеромToolStripMenuItem.Name = "игратьСКомпьютеромToolStripMenuItem";
-            this.игратьСКомпьютеромToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.игратьСКомпьютеромToolStripMenuItem.Text = "Играть с компьютером";
+            this.игратьСКомпьютеромToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.игратьСКомпьютеромToolStripMenuItem.Text = "Play with computer";
             this.игратьСКомпьютеромToolStripMenuItem.Click += new System.EventHandler(this.крестикиToolStripMenuItem_Click);
             // 
             // игратьСДругомToolStripMenuItem
             // 
             this.игратьСДругомToolStripMenuItem.Name = "игратьСДругомToolStripMenuItem";
-            this.игратьСДругомToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.игратьСДругомToolStripMenuItem.Text = "Играть с другом";
+            this.игратьСДругомToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.игратьСДругомToolStripMenuItem.Text = "Play with friend";
             this.игратьСДругомToolStripMenuItem.Click += new System.EventHandler(this.крестикиToolStripMenuItem_Click);
             // 
             // игратьЗаToolStripMenuItem
@@ -235,35 +235,35 @@
             this.крестикиToolStripMenuItem,
             this.ноликиToolStripMenuItem});
             this.игратьЗаToolStripMenuItem.Name = "игратьЗаToolStripMenuItem";
-            this.игратьЗаToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.игратьЗаToolStripMenuItem.Text = "Играть за...";
+            this.игратьЗаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.игратьЗаToolStripMenuItem.Text = "Play for...";
             // 
             // крестикиToolStripMenuItem
             // 
             this.крестикиToolStripMenuItem.Name = "крестикиToolStripMenuItem";
-            this.крестикиToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.крестикиToolStripMenuItem.Text = "Крестики";
+            this.крестикиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.крестикиToolStripMenuItem.Text = "X";
             this.крестикиToolStripMenuItem.Click += new System.EventHandler(this.крестикиToolStripMenuItem_Click);
             // 
             // ноликиToolStripMenuItem
             // 
             this.ноликиToolStripMenuItem.Name = "ноликиToolStripMenuItem";
-            this.ноликиToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.ноликиToolStripMenuItem.Text = "Нолики";
+            this.ноликиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ноликиToolStripMenuItem.Text = "O";
             this.ноликиToolStripMenuItem.Click += new System.EventHandler(this.крестикиToolStripMenuItem_Click);
             // 
             // новаяИграToolStripMenuItem
             // 
             this.новаяИграToolStripMenuItem.Name = "новаяИграToolStripMenuItem";
-            this.новаяИграToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.новаяИграToolStripMenuItem.Text = "Новая игра";
+            this.новаяИграToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.новаяИграToolStripMenuItem.Text = "New game";
             this.новаяИграToolStripMenuItem.Click += new System.EventHandler(this.крестикиToolStripMenuItem_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 302);
+            this.ClientSize = new System.Drawing.Size(324, 301);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -274,7 +274,7 @@
             this.MinimumSize = new System.Drawing.Size(340, 340);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Крестики-нолики";
+            this.Text = "TicTacToe";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
