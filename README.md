@@ -1,4 +1,4 @@
-# 🧠❌⭕ Desktop Tic-Tac-Toe  
+# 🧠❌⭕ Desktop Tic-Tac-Toe (Screenshots are below)
 
 Classic Tic-Tac-Toe reimagined for the desktop — challenge computer or go head-to-head with a friend on the same screen. Simple, fun, and nostalgic.
 
